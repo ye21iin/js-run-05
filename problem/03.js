@@ -12,10 +12,8 @@
  */
 
 function closureWithParams(op, num) {
-  
-    function calc(op, num) {
-    let base = 10;
-
+  let base = 10;
+  function calc(op, num) {
     switch (op) {
       case "+":
         base += num;
@@ -29,7 +27,7 @@ function closureWithParams(op, num) {
     }
     return base;
   }
-  return calc; 
+  return calc;
 }
 
 export { closureWithParams };

@@ -14,7 +14,7 @@ class Animal {
     this.name = name;
   }
   getName() {
-    return this.name;
+    return "My name is " + this.name;
   }
 }
 export { Animal };
